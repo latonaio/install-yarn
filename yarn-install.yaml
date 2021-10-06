@@ -1,0 +1,16 @@
+- name: install yarn
+  become: yes
+  shell:
+    cmd: "npm install --global yarn"
+    chdir: "{{ work_dir }}/UI/xxxxxxxx"
+
+- name: yarn install
+  become: yes
+  shell:
+    cmd: yarn install
+    chdir: "{{ work_dir }}/UI/xxxxxxxx"
+
+- name: make .yarnrc in xxxxxxxx
+  copy:
+    dest: "{{ work_dir }}/UI/xxxxxxxx/.yarnrc"
+    content: network-timeout 600000
