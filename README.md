@@ -1,6 +1,8 @@
 # 概要
 yarn package を利用するための手順です。  
 yarnは、node modules を利用するためのマネージャーとして利用されます。  
+yarnのインストールには、typeormのインストールも含まれます。   
+- [typeorm](https://github.com/latonaio/typeorm)
 
 # how to setup
 セットアップのためのコマンドは、yarn-install.yaml 内にあります。
