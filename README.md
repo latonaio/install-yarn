@@ -1,4 +1,4 @@
-# 概要
+# install-yarn  
 yarn package を利用するための手順です。  
 yarnは、node modules を利用するためのマネージャーとして利用されます。  
 yarnのインストールには、typeormのインストールも含まれます。   
